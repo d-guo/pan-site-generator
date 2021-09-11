@@ -1,0 +1,30 @@
+#
+####################################
+# Site Configurations
+####################################
+#
+title: John Doe
+description: My personal blog and website.
+preview-image: preview.png
+url: http://localhost:3000/
+
+#
+####################################
+# Site Owner Settings
+####################################
+#
+owner:
+  name: John Doe
+  avatar: avatar.png
+  job: ""
+  bio: "currently drinking lactose-free milk"
+  email: johndoe@gmail.com
+
+  #
+  ####################################
+  # Site Owner Handles
+  ####################################
+  #
+  github: johndoe
+  linkedin: johndoe
+  telegram: johndoe
