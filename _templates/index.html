@@ -1,8 +1,12 @@
 <head>
-    {% include 'head.html' %}
+  {% include 'head.html' %}
 </head>
 
-<div class="topbar">
-    {% include 'topbar.html' %}
-</div>
-
+<body>
+  <div class="topbar">{% include 'topbar.html' %}</div>
+  <div>
+    {% markdown %}
+    {{ home_content }}
+    {% endmarkdown %}
+  </div>
+</body>

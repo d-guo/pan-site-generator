@@ -1,7 +1,5 @@
 import yaml
 import os
-from collections import deque
-
 import utils
 
 # load data from _config.yml
@@ -20,9 +18,16 @@ for styling in os.listdir('_styles'):
 print('copied styling into _site')
 
 # render all templates into _site
+_, content = utils.splitFrontMatterContent(f'home.md')
+data['home_content'] = content
 for template in os.listdir('_templates'):
     text = utils.renderTemplate(template, data)
     utils.writeToSite(text, template)
 print('rendered templates into _site')
+
+# render blogpages into _site
+for blogpost in os.listdir('_blogposts'):
+    front_matter, content = utils.splitFrontMatterContent(f'_blogposts/{blogpost}')
+    # incomplete
 
 print('success')
