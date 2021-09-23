@@ -30,4 +30,11 @@ for blogpost in os.listdir('_blogposts'):
     front_matter, content = utils.splitFrontMatterContent(f'_blogposts/{blogpost}')
     # incomplete
 
+    blogpost_data = front_matter
+    blogpost_data['content'] = content
+
+    template = 'blogpage.html'
+    text = utils.renderTemplate(template, blogpost_data)
+    utils.writeToSite(text, f'{front_matter["title"]}.html')
+
 print('success')
