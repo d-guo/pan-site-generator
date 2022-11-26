@@ -4,27 +4,45 @@
 ####################################
 #
 title: John Doe
-description: My personal blog and website.
+description: My personal website.
 preview-image: preview.png
-url: http://localhost:3000/
 
 #
 ####################################
-# Site Owner Settings
+# Page Settings
 ####################################
 #
 owner:
   name: John Doe
-  avatar: avatar.png
-  job: ""
   bio: "currently drinking lactose-free milk"
-  email: johndoe@gmail.com
+  
 
-  #
-  ####################################
-  # Site Owner Handles
-  ####################################
-  #
+#
+####################################
+# Handles and Links
+####################################
+#
+links:
+  email: johndoe@gmail.com
   github: johndoe
   linkedin: johndoe
   telegram: johndoe
+
+#
+####################################
+# Timeline
+####################################
+#
+timeline:
+  job1:
+    company: company_name
+    title: position_title
+    start: Mon. Year
+    end: Mon. Year
+    description: optional desc of work
+  job2:
+    company: company_name
+    title: position_title
+    start: Mon. Year
+    end: Mon. Year
+    description: optional desc of work

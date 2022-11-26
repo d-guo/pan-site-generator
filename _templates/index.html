@@ -1,12 +1,16 @@
 <head>
-  {% include 'head.html' %}
+  <meta charset="utf-8" />
+
+  <title>{{ title }}</title>
+
+  {% if description is defined and description %}
+  <meta name="description" content="{{ description }}" />
+  {% endif %}
 </head>
 
 <body>
-  <div class="topbar">{% include 'topbar.html' %}</div>
-  <div>
+  hi
     {% markdown %}
     {{ home_content }}
     {% endmarkdown %}
-  </div>
 </body>
