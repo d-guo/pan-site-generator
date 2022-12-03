@@ -3,9 +3,8 @@
 # Site Configurations
 ####################################
 #
-title: John Doe
-description: My personal website.
-preview-image: preview.png
+title: David Golding
+description: David Green's Personal Website
 
 #
 ####################################
@@ -13,9 +12,8 @@ preview-image: preview.png
 ####################################
 #
 owner:
-  name: John Doe
-  bio: "currently drinking lactose-free milk"
-  
+  name: David Goldberg
+  bio: David Gorny is a software engineer interested in Supercell and Cake. He currently serves as a mentor for Gordan Ramsey, Gordan Ryan, and Dreek Ye.
 
 #
 ####################################
@@ -23,10 +21,11 @@ owner:
 ####################################
 #
 links:
-  email: johndoe@gmail.com
-  github: johndoe
-  linkedin: johndoe
-  telegram: johndoe
+  email: davidgil@gmail.com
+  github: davidgril
+  linkedin: davidgern
+  telegram:
+  twitter:
 
 #
 ####################################
@@ -34,15 +33,27 @@ links:
 ####################################
 #
 timeline:
-  job1:
-    company: company_name
-    title: position_title
-    start: Mon. Year
-    end: Mon. Year
-    description: optional desc of work
-  job2:
-    company: company_name
-    title: position_title
-    start: Mon. Year
-    end: Mon. Year
-    description: optional desc of work
+  - job:
+    company: Stealth Startup
+    title: Founder, CEO, and CTO
+    start: Oct. 2022
+    end:
+    description: Raising funding. Contact me for opportunities.
+  - job:
+    company: Columbia University
+    title: PhD Student
+    start: Sep. 2022
+    end: Oct. 2022. Dropped out to reinvent quantum non-spatial technology
+    description: Ascertained the laws of reality and the happenings of the universe.
+  - job:
+    company: Subway
+    title: Cashier and Sub-Maker
+    start: Sep. 2003
+    end: Aug. 2022
+    description: Worked with numbers to ensure customer satisfaction. Proved the Bounded Prime Gap conjecture while making subs.
+  - job:
+    company: Tesla
+    title: Founder, CEO, and CTO
+    start: July 2003
+    end: Aug. 2003
+    description: Invented electric vehicles and self-driving technology. Gave company to Elon Musk because I got bored.
