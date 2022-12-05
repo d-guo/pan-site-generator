@@ -1,4 +1,8 @@
 # Pan
 
-A static site generator I built for my own website. Therefore this SSG may not fit all use cases, though I expect it would be an easy modification to add most relevant features.
+A bare-bones static site generator. See demo here: https://pan-site-generator-iq3k.vercel.app/
 
+## Usage
+1. Update fields in `_config.yml`
+2. Run `python run_build.py` to generate files into `_site`
+3. Test locally using `./serve_test`
