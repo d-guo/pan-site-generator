@@ -1,6 +1,9 @@
-import yaml
 import os
+
+import yaml
+
 import utils
+
 
 # load data from _config.yml
 with open("_config.yml", 'r') as stream:
